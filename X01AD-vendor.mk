@@ -6,7 +6,8 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/asus/X01AD
 
 PRODUCT_COPY_FILES += \
-    vendor/asus/X01AD/proprietary/lib/libmmcamera_ubifocus_lib.so::$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ubifocus_lib.so \
+    vendor/asus/X01AD/proprietary/vendor/lib/libswregistrationalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libswregistrationalgo.so \
+    vendor/asus/X01AD/proprietary/lib/libmmcamera_ubifocus_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ubifocus_lib.so \
     vendor/asus/X01AD/proprietary/lib/libmmcamera_sw_tnr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sw_tnr.so \
     vendor/asus/X01AD/proprietary/lib/libchromaflash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromaflash.so \
     vendor/asus/X01AD/proprietary/lib/libllvd_smore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvd_smore.so \
